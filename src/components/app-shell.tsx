@@ -27,7 +27,7 @@ const ROLE_BADGE_VARIANT: Record<AppRole, "default" | "secondary" | "outline"> =
 
 type AppShellProps = {
   role: AppRole;
-  userEmail?: string;
+  userEmail?: string | undefined;
   title: string;
   description?: string;
   children: ReactNode;
