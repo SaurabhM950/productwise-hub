@@ -21,17 +21,17 @@ import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 export const Route = createFileRoute("/auth")({
   head: () => ({
     meta: [
-      { title: "Sign in · StockPilot" },
+      { title: "Sign in · InventViq" },
       {
         name: "description",
         content:
-          "Sign in or create your StockPilot account to manage products, stock levels, suppliers, purchases and sales.",
+          "Sign in or create your InventViq account to manage products, stock levels, suppliers, purchases and sales.",
       },
-      { property: "og:title", content: "Sign in · StockPilot" },
+      { property: "og:title", content: "Sign in · InventViq" },
       {
         property: "og:description",
         content:
-          "Sign in or create your StockPilot account to manage products, stock levels, suppliers, purchases and sales.",
+          "Sign in or create your InventViq account to manage products, stock levels, suppliers, purchases and sales.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
@@ -165,7 +165,7 @@ function AuthPage() {
           <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary-foreground/10">
             <Boxes className="h-5 w-5" />
           </span>
-          StockPilot
+          InventViq
         </div>
         <div className="relative">
           <h2 className="font-display text-4xl font-bold leading-tight tracking-tight">
@@ -174,7 +174,7 @@ function AuthPage() {
             accounted for.
           </h2>
           <p className="mt-4 max-w-md text-primary-foreground/70">
-            StockPilot keeps your products, suppliers, purchases and sales in
+            InventViq keeps your products, suppliers, purchases and sales in
             sync — so you always know what is on the shelf.
           </p>
           <ul className="mt-8 space-y-4">
@@ -199,7 +199,7 @@ function AuthPage() {
           <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary text-primary-foreground">
             <Boxes className="h-5 w-5" />
           </span>
-          StockPilot
+          InventViq
         </div>
 
         <div className="w-full max-w-sm">

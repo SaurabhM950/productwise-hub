@@ -79,18 +79,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "StockPilot — Inventory Management" },
+      { title: "InventViq — Inventory Management" },
       {
         name: "description",
         content:
-          "StockPilot tracks products, stock levels, suppliers, purchases and sales with role-based access for admins, managers and staff.",
+          "InventViq tracks products, stock levels, suppliers, purchases and sales with role-based access for admins, managers and staff.",
       },
-      { name: "author", content: "StockPilot" },
-      { property: "og:title", content: "StockPilot — Inventory Management" },
+      { name: "author", content: "InventViq" },
+      { property: "og:title", content: "InventViq — Inventory Management" },
       {
         property: "og:description",
         content:
-          "StockPilot tracks products, stock levels, suppliers, purchases and sales with role-based access for admins, managers and staff.",
+          "InventViq tracks products, stock levels, suppliers, purchases and sales with role-based access for admins, managers and staff.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

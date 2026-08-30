@@ -23,11 +23,11 @@ import {
 export const Route = createFileRoute("/_authenticated/inventory")({
   head: () => ({
     meta: [
-      { title: "Inventory · StockPilot" },
+      { title: "Inventory · InventViq" },
       {
         name: "description",
         content:
-          "Browse and search every product, stock level, supplier and price in StockPilot.",
+          "Browse and search every product, stock level, supplier and price in InventViq.",
       },
       { name: "robots", content: "noindex" },
     ],
