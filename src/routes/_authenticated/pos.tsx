@@ -19,11 +19,11 @@ import { Skeleton } from "@/components/ui/skeleton";
 export const Route = createFileRoute("/_authenticated/pos")({
   head: () => ({
     meta: [
-      { title: "Point of Sale · StockPilot" },
+      { title: "Point of Sale · InventViq" },
       {
         name: "description",
         content:
-          "Ring up sales in StockPilot — stock levels update automatically on checkout.",
+          "Ring up sales in InventViq — stock levels update automatically on checkout.",
       },
       { name: "robots", content: "noindex" },
     ],

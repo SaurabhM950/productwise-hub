@@ -27,11 +27,11 @@ import {
 export const Route = createFileRoute("/_authenticated/dashboard")({
   head: () => ({
     meta: [
-      { title: "Dashboard · StockPilot" },
+      { title: "Dashboard · InventViq" },
       {
         name: "description",
         content:
-          "Admin overview of StockPilot: stock value, low-stock alerts, and recent sales.",
+          "Admin overview of InventViq: stock value, low-stock alerts, and recent sales.",
       },
       { name: "robots", content: "noindex" },
     ],
